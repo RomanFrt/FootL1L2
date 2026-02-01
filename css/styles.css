@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_title {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.card-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#091C3E;
+    height: 110px;
+}
+
+.card-nav img {
+    width: 80px;
+}
+
+h1 {
+    font-family: "Roboto",sans-serif;
+    font-size: 36px;
+    color:white;
+}
+
+
+.carte1 {
+    width: 933px;
+    height: 872px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #575757;
+    height: 120px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-family: 'Fanwood Text',sans-serif;
+}
+
+
+.Ligue_1 {
+    border-right: 1px solid #091C3E;
+}
+
+.carte2 {
+    display: none;
+}
+
+
+
+
+@media only screen
+and (max-device-width: 390px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    .carte2 {
+        display: block;
+        width: 390px;
+        height: 390px;
+    }
+    
+    .carte {
+        display: none;
+    }
+
+    .Ligue_1 {
+    border-right: 0px solid #091C3E;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container_title {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    
+    .container-card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .card-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#091C3E;
+        height: 110px;
+    }
+    
+    .card-nav img {
+        width: 80px;
+    }
+    
+    h1 {
+        font-family: "Roboto",sans-serif;
+        font-size: 32px;
+        color:white;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #575757;
+        height: 80px;
+    }
+    
+    footer a{
+        color: white;
+        font-size: 36px;
+        font-family: 'Fanwood Text',sans-serif;
+    }
+}

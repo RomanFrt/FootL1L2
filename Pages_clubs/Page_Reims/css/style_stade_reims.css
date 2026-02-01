@@ -1,0 +1,333 @@
+@keyframes zoom {
+	from { transform: scale(0); }
+	to { transform: scale(1); }
+}
+
+*
+{
+	transition: 250ms all ease;
+	animation-name: zoom;
+	animation-duration: 750ms;
+    margin: 0;
+    padding: 0;
+}
+
+header img
+{
+    width: 350px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+header div div 
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+    left: 0;
+    
+
+}
+
+header
+{
+    background-color:#ee1c25 ;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+header div
+{
+	padding: 10px;
+	margin: auto;
+	margin-top: -10px;
+	height: auto;
+    display : flex;
+    justify-content : center ;
+    align-items: center;
+}
+
+
+.accueil
+{
+    text-decoration: none;
+    color: black;
+    font-size: 65px;
+}
+
+.francais
+{
+    font-size: 28px;
+    margin-left: 1760px;
+    background-color: beige;
+    border-radius: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.anglais
+{
+    font-size: 28px;
+    margin-left: 1760px;
+    background-color: beige;
+    border-radius: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.anglais:hover
+{
+    transform: scale(1.1);
+}
+
+.francais:hover
+{
+    transform: scale(1.1);
+}
+
+.accueil
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    cursor: crosshair;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+}
+
+body
+{
+    background-color: #f4fefe;
+}
+
+article h1
+{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+article div img
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+article a
+{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    margin-right:720px ;
+    margin-left: 720px;
+    margin-top: 45px;
+    border-radius: 50px;
+}
+
+article a:hover
+{
+    transform: scale(1.1);
+    background-color: red;
+    margin-right:720px ;
+    margin-left: 720px;
+    border-radius: 50px;
+}
+
+article div p
+{
+    font-size: 36px;
+    padding-right: 1000px;
+    margin-right: 800px;
+    background-color: #ffd300;
+}
+
+.place
+{
+    font-size: 36px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.dimension
+{
+    text-align: right;
+    font-size: 36px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.localisation
+{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer 
+{
+    background-color: black;
+    opacity: 50%;
+    padding: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer a
+{
+    color: white;
+    opacity: 100%;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+nav
+{
+    display: none;
+}
+
+nav ul li a
+{
+    font-size: 28px;
+}
+
+/*---------- Mode Iphone 13 ----------*/
+@media only screen
+and (max-device-width: 1170px)
+{
+    header img
+    {
+        height: 150px;
+        width: auto;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+    header div a
+    {
+        display: none;
+    }
+
+    article div img
+    {
+        height: 250px;
+        width: 380px;
+    }
+
+    nav
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		letter-spacing: 5px;
+        display: block;
+        font-size: 28px;
+	
+	}
+	nav:hover
+	{
+		background-image: url("/img/background_menu.jpg") ;
+	}
+
+	nav ul::before
+	{
+		content: "MENU";
+		color: black;
+	}
+	nav ul
+	{
+		font-size: 28px;
+	}
+
+	nav ul li::before
+	{
+		content: "-" ;
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		margin-right: 5px;
+	}
+	nav ul li
+	{
+		position: relative;
+		left: 0px;
+		display: none;
+	}
+	nav ul:hover li
+	{
+		display: block;
+	}
+
+    .menu
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .retour
+    {
+        display: none;
+    }
+
+    .place
+    {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+    }
+
+    .dimension
+    {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .localisation
+    {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .francais
+    {
+        display: none;
+    }
+
+    .anglais
+    {
+        display: none;
+    }
+
+    
+}

@@ -1,0 +1,510 @@
+* {
+    border-radius: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.tout {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+    font-family: "Fanwood Text",sans-serif;
+    font-size: 38px;
+}
+
+
+/* Haut de page */
+.hautpage {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(26, 190, 190);
+    height: 130px;
+    margin: 10px;
+}
+
+
+.container_title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container_title img {
+display: flex;
+width: 200px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
+.card-tittle {
+display: flex;
+flex-direction: row;
+width: 52%;
+justify-content: space-between;
+}
+
+.card-language {
+display: flex;
+flex-direction: column;
+}
+
+.card-language img {
+width: 40px;
+height: 30px;
+border-radius: 5px;
+margin-right: 10px;
+}
+
+.france {
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+.anglais {
+margin-bottom: 30px;
+}
+
+.titre {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+font-size: 48px;
+}
+
+/* Fin Haut de page */
+
+
+
+/* Présentation */
+.description {
+ display: flex;
+ flex-direction: row;
+}
+
+.presentation
+{
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+    margin: 50px;
+    font-size: 24px;
+}
+
+.description img {
+padding-left: 50px;
+margin-top: 50px;
+}
+
+/*Fin Présentation */
+
+
+.CTA {
+    border: 2px solid red;
+    padding: 20px; 
+    text-align: center; 
+    background-color: red; 
+    font-size: 48px; 
+    border-radius: 50px; 
+    width: 30%; 
+    margin-left: 20%;
+}
+
+.CTA a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Président */
+
+.president {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.first {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+
+.first img {
+display: flex;
+justify-content: flex-start;
+border-radius: 50px;
+padding: 30px;
+margin-left: 20px;
+}
+
+.ptext {
+display: flex;
+flex-direction: column;
+}
+
+.second {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+
+.second img {
+display: flex;
+justify-content: flex-start;
+border-radius: 50px;
+padding: 30px;
+}
+
+.dtext {
+display: flex;
+flex-direction: column;
+}
+
+h2,h3 {
+padding-bottom: 10px;
+}
+
+/* Fin President */ 
+
+
+
+
+
+/* Tableau */
+
+.entraineur {
+    display: flex;
+    flex-direction: row;
+}
+
+.tableau1 {
+width: 50%;
+display: flex;
+justify-content: flex-start;
+margin-left: 50px;
+}
+
+.tableau2 {
+width: 50%;
+display: flex;
+justify-content: flex-start;
+padding-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td
+{
+    border: solid 1px black; 
+}
+
+table th
+{
+    border: solid 2px black;
+}
+
+/* Fin tableau */
+
+
+/* Bas de page */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #575757;
+    height: 120px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    font-size: 36px;
+    font-family: 'Fanwood Text',sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Fin Bas de Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------Responsive-------------------------------*/
+
+@media only screen
+and (max-device-width: 390px) {
+    * {
+        border-radius: 0px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .tout {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1 {
+        color: black;
+        font-family: "Fanwood Text",sans-serif;
+        font-size: 38px;
+    }
+    
+    
+    /* Haut de page */
+    .hautpage {
+        display: flex;
+        flex-direction: row;
+        background-color:rgb(26, 190, 190);
+        height: 130px;
+        margin: 10px;
+    }
+    
+    
+    .container_title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .container_title img {
+    display: flex;
+    width: 150px;
+    }
+    
+    .card-header{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+    }
+
+    .card-tittle {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: space-between;
+        }
+    
+    .card-language img {
+        width: 30px;
+        height: 20px;
+        border-radius: 5px;
+        margin-right: 10px;
+        }
+
+    .titre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+    }
+    
+    /* Fin Haut de page */
+    
+    
+    
+    /* Présentation */
+    .description {
+     display: flex;
+     flex-direction: column;
+    }
+    
+    .presentation
+    {
+        font-family: "Roboto",sans-serif;
+        display: flex;
+        width: 50%;
+        padding: 10px;
+        margin: 20px;
+        margin-left: 25%;
+        font-size: 16px;
+    }
+    
+    .description img {
+    padding-left: 25%;
+    margin-top: 50px;
+    width: 50%;
+    }
+    
+    /*Fin Présentation */
+    
+    .bouton {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .CTA {
+        border: 2px solid red;
+        background-color: red;
+        font-size: 24px;
+        border-radius: 50px;
+        margin-left: 25%;
+        margin-top: 20px;
+        white-space: nowrap;
+        padding-right: 50px;
+    }
+    
+    .CTA a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+    /* Président */
+    
+    .president {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    
+    .first {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    
+    .first img {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 20px;
+    }
+    
+    .ptext {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    .second {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    
+    .second img {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50px;
+    padding: 30px;
+    }
+    
+    .dtext {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    h2,h3 {
+    padding-bottom: 10px;
+    }
+    
+    /*Fin President */ 
+    
+    /* Tableau */
+
+    .entraineur {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tableau1 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+    
+    .tableau2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin-left: 25%;
+    }
+    
+    table {
+        border-collapse: collapse;
+    }
+    
+    table td
+    {
+        border: solid 1px black; 
+    }
+    
+    table th
+    {
+        border: solid 2px black;
+    }
+    
+    /* Fin tableau */
+    
+    
+    /* Bas de page */
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #575757;
+        height: 120px;
+        margin-top: 50px;
+    }
+    
+    footer a {
+        color: white;
+        font-size: 28px;
+        font-family: 'Fanwood Text',sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    /* Fin Bas de Page */
+}
